@@ -10,6 +10,7 @@ import { navItems } from "@/data";
 import { useContext, useEffect, useState } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import Technologies from "@/components/Technologies";
 
 export default function Home() {
   const [ShowElement, setShowElement] = useState(false);
@@ -60,6 +61,7 @@ export default function Home() {
         <SocialMediaEmail />
         <Hero />
         {context.sharedState.finishedLoading ? <Grid /> : <></>}
+        {context.sharedState.finishedLoading ? <Technologies /> : <></>}
         {context.sharedState.finishedLoading ? <WhereIHaveWorked /> : <></>}
         {context.sharedState.finishedLoading ? <SomethingIveBuilt /> : <></>}
       </div>

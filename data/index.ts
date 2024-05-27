@@ -1,8 +1,8 @@
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
   { name: "Contact", link: "#contact" },
+  { name: "Resume", link: "/resume.pdf" },
 ];
 
 export const gridItems = [
@@ -109,30 +109,54 @@ export const testimonials = [
 export const companies = [
   {
     id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
+    name: "Golang",
+    img: "/golang.svg",
+    nameImg: "",
   },
   {
     id: 2,
-    name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
+    name: "Python",
+    img: "/python.svg",
+    nameImg: "",
   },
   {
     id: 3,
+    name: "Redux",
+    img: "/redux.svg",
+    nameImg: "",
+  },
+  {
+    id: 4,
+    name: "Tailwind",
+    img: "/tail.svg",
+    nameImg: "",
+  },
+  {
+    id: 5,
+    name: "i18n",
+    img: "/i18n.svg",
+    nameImg: "",
+  },
+  {
+    id: 6,
+    name: "THREE",
+    img: "/three.svg",
+    nameImg: "",
+  },
+  {
+    id: 7,
+    name: "MongoDB",
+    img: "/mongodb.svg",
+    nameImg: "",
+  },
+  {
+    id: 8,
     name: "HOSTINGER",
     img: "/host.svg",
     nameImg: "/hostName.svg",
   },
   {
-    id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
-  },
-  {
-    id: 5,
+    id: 9,
     name: "docker.",
     img: "/dock.svg",
     nameImg: "/dockerName.svg",

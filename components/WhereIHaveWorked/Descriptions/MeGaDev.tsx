@@ -1,19 +1,20 @@
 import React from "react";
-import ArrowIcon from "../../../components/Icons/ArrowIcon";
+import ArrowIcon from "../../Icons/ArrowIcon";
 import { getTasksTextWithHighlightedKeyword } from "./taskAndType";
-export default function FeverTokens() {
+import Link from "next/link";
+export default function MeGaDev() {
   const tasks = [
     {
-      text: "Leading the development of the NFT Marketplace v2 for the Platform FeverTokens.",
-      keywords: ["NFT Marketplace v2"],
+      text: "Leading the development of the responsive and user-friendly Single Page Applications (SPA).",
+      keywords: ["Single Page Applications"],
     },
     {
-      text: "Worked with a team of six developers to build a temporary NFT Marketplace platform for VivaTech2022 event, an ambitious startup originating from France,Paris.",
-      keywords: ["VivaTech2022 event"],
+      text: "Worked with a team of six developers to build a marketing applications, an ambitious startup originating from England, London.",
+      keywords: ["six developers", "ambitious startup"],
     },
     {
-      text: "Interacted with the blockchain & Smart Contracts to build the new FeverTokens Platform.",
-      keywords: ["blockchain & Smart Contracts"],
+      text: "Performed unit/integration testing.",
+      keywords: ["unit/integration"],
     },
   ];
   return (
@@ -21,21 +22,22 @@ export default function FeverTokens() {
       <div className="flex flex-col space-y-5 max-w-xl px-4 md:px-0">
         <div className="flex flex-col spacey-y-2">
           {/* Title */}
-          <span className="text-gray-100 sm:text-lg text-sm font-Arimo tracking-wide">
-            Software Engineer <span className="text-purple">@ web3</span>
+          <span className="text-white sm:text-lg text-sm font-Arimo tracking-wide">
+            Front-End Developer
           </span>
           {/* Date */}
-          <span className="font-mono text-xs text-gray-500">
-            Mars - August 2022
+          <span className="font-mono text-xs text-white">
+            Jan 2021 - Mar 2022
           </span>
-          <span
+          <Link
+            href={"https://megadevllc.com/"}
             className="font-mono text-xs text-purple hover:cursor-pointer"
-            // set text size on style attribute
             style={{ fontSize: "0.6rem" }}
-            onClick={() => window.open("https:///www.fevertokens.io", "_blank")}
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            www.fevertokens.io
-          </span>
+            megadevllc.com
+          </Link>
         </div>
         <div className="flex flex-col space-y-4 sm:text-sm text-xs">
           {/* Tasks Description 1 */}
@@ -44,7 +46,7 @@ export default function FeverTokens() {
               <div key={index} className="flex flex-row space-x-2">
                 <ArrowIcon className={" h-5 w-4 text-purple flex-none"} />
                 <span
-                  className="text-gray-500 sm:text-sm text-xs"
+                  className="text-white sm:text-sm text-xs"
                   dangerouslySetInnerHTML={{
                     __html: getTasksTextWithHighlightedKeyword(
                       item.text,

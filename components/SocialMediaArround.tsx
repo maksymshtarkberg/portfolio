@@ -16,7 +16,7 @@ const IconClickableWithAnimation = ({ href, Icon }: any) => {
       <a href={href} className="" target={"_blank"} rel="noreferrer">
         <Icon
           className={
-            "w-6 h-6 text-gray-400 hover:text-purple fill-current hover:cursor-pointer"
+            "w-6 h-6 text-white hover:text-purple fill-current hover:cursor-pointer"
           }
         />
       </a>
@@ -69,7 +69,7 @@ export default function SocialMediaEmail() {
               target={"_blank"}
               rel="noreferrer"
             >
-              <span className=" font-Header tracking-wider text-gray-400 hover:text-purple hover:cursor-pointer">
+              <span className=" font-Header tracking-wider text-white hover:text-purple hover:cursor-pointer">
                 starkberg<span className="text-purple">@</span>icloud
                 <span className="text-purple">.</span>com
               </span>

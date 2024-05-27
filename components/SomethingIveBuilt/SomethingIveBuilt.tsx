@@ -250,7 +250,7 @@ const SomethingIveBuilt = () => {
                 <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
                 <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
                 <Img
-                  src={"/typing.png"}
+                  src={""}
                   alt={"Project Screen shot"}
                   className={`w-full h-full `}
                 />
@@ -314,7 +314,7 @@ const SomethingIveBuilt = () => {
                 ></div>
               </Link>
               <Img
-                src={"/hackme.jpg"}
+                src={""}
                 alt={"Project Screen shot"}
                 className={`w-full rounded h-full `}
               />
@@ -329,7 +329,7 @@ const SomethingIveBuilt = () => {
                 <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
                 <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
                 <Img
-                  src={"/hackme.jpg"}
+                  src={""}
                   alt={"Project Screen shot"}
                   className={`w-full h-full`}
                 />

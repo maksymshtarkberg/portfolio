@@ -1,20 +1,25 @@
 import React from "react";
-import ArrowIcon from "../../../components/Icons/ArrowIcon";
+import ArrowIcon from "../../Icons/ArrowIcon";
 import { getTasksTextWithHighlightedKeyword } from "./taskAndType";
+import Link from "next/link";
 
-export default function TrouveTavoie() {
+export default function Noviopus() {
   const tasks = [
     {
-      text: "Spearhead & implemented a new design user workflow system for the Frond-End Architecture of a NFT Marketplace.",
-      keywords: ["NFT Marketplace"],
+      text: "Worked on the front-end development in the startup team using Next.js, SCSS, Redux, i18n.",
+      keywords: ["Next.js", "SCSS", "Redux", "i18n"],
     },
     {
-      text: "Worked with a variety of different languages, platforms, frameworks, and content management systems such as JavaScript, TypeScript, Next.js/React, AWS and Vercel.",
-      keywords: ["Next.js/React", "AWS", "Vercel"],
+      text: "Migrate marketing app from React to Next.js, implemented i18next to Next.js with dynamic translation route.",
+      keywords: ["migrate", "dynamic translation route"],
     },
     {
-      text: "Interfaced with developers on a daily basis, providing technological expertise.",
-      keywords: [],
+      text: "Developed project architecture strategy and SEO optimization.",
+      keywords: ["project architecture", "SEO optimization"],
+    },
+    {
+      text: "Collaborated closely with the team in regular meetings and interacted in components development process.",
+      keywords: ["development process"],
     },
   ];
 
@@ -23,23 +28,22 @@ export default function TrouveTavoie() {
       <div className="flex flex-col space-y-5 max-w-xl px-4 md:px-0">
         <div className="flex flex-col spacey-y-2">
           {/* Title */}
-          <span className="text-gray-100 sm:text-lg text-sm font-Arimo tracking-wide">
-            Software Engineer <span className="text-purple">@ Blockchain</span>
+          <span className="text-white sm:text-lg text-sm font-Arimo tracking-wide">
+            Web Developer
           </span>
           {/* Date */}
-          <span className="font-mono text-xs text-gray-500">
-            Mars - August 2022
+          <span className="font-mono text-xs text-white">
+            Sep 2023 - Mar 2024
           </span>
-          <span
+          <Link
+            href={"https://noviopus.com/"}
             className="font-mono text-xs text-purple hover:cursor-pointer"
             style={{ fontSize: "0.6rem" }}
-            // set on click to open the website
-            onClick={() =>
-              window.open("https://www.trouvetavoie.io/", "_blank")
-            }
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            www.trouvetavoie.io
-          </span>
+            noviopus.com
+          </Link>
         </div>
         <div className="flex flex-col space-y-4 sm:text-sm text-xs">
           {/* Tasks Description 1 */}
@@ -48,7 +52,7 @@ export default function TrouveTavoie() {
               <div key={index} className="flex flex-row space-x-1">
                 <ArrowIcon className={" h-5 w-4 text-purple flex-none"} />
                 <span
-                  className="text-gray-500 sm:text-sm text-xs"
+                  className="text-white sm:text-sm text-xs"
                   dangerouslySetInnerHTML={{
                     __html: getTasksTextWithHighlightedKeyword(
                       item.text,
