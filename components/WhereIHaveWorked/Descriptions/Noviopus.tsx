@@ -10,8 +10,8 @@ export default function Noviopus() {
       keywords: ["Next.js", "SCSS", "Redux", "i18n"],
     },
     {
-      text: "Migrate marketing app from React to Next.js, implemented i18next to Next.js with dynamic translation route.",
-      keywords: ["migrate", "dynamic translation route"],
+      text: "Migrated marketing app from React to Next.js, implemented i18next to Next.js with dynamic translation route.",
+      keywords: ["migrated", "dynamic translation route"],
     },
     {
       text: "Developed project architecture strategy and SEO optimization.",
@@ -33,7 +33,7 @@ export default function Noviopus() {
           </span>
           {/* Date */}
           <span className="font-mono text-xs text-white">
-            Sep 2023 - Mar 2024
+            Sep 2023 - May 2024
           </span>
           <Link
             href={"https://noviopus.com/"}

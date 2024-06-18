@@ -27,7 +27,7 @@ export default function MeGaDev() {
           </span>
           {/* Date */}
           <span className="font-mono text-xs text-white">
-            Jan 2021 - Mar 2022
+            Dec 2021 - Mar 2023
           </span>
           <Link
             href={"https://megadevllc.com/"}

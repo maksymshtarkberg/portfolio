@@ -36,12 +36,12 @@ export default function SocialMediaEmail() {
             {/* Github Icon */}
             <IconClickableWithAnimation
               Icon={GithubIcon}
-              href={"https://github.com/"}
+              href={"https://github.com/maksymshtarkberg"}
             />
             {/* Linkedin icon */}
             <IconClickableWithAnimation
               Icon={LinkedinIcon}
-              href={"https://www.linkedin.com/in/"}
+              href={"https://www.linkedin.com/in/maksym-shtarkberg/"}
             />
           </div>
           <div className="h-28 w-0.5 bg-gray-400"></div>

@@ -31,7 +31,7 @@ export default function Freelance() {
           </span>
           {/* Date */}
           <span className="font-mono text-xs text-white">
-            June 2020 - present
+            June 2021 - present
           </span>
         </div>
         <div className="flex flex-col space-y-4 sm:text-sm text-xs">

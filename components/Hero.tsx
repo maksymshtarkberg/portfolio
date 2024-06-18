@@ -41,7 +41,7 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            I&apos;m a Web Developer based in Israel.
+            I&apos;m a Web Developer based in Israel
           </p>
           <a href={"/resume.pdf"} target={"_blank"} rel="noreferrer">
             <MagicButton
