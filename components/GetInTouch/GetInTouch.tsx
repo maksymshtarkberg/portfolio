@@ -5,14 +5,14 @@ export default function GetInTouch() {
     <div
       id="contact"
       data-aos="fade-up"
-      className="flex flex-col space-y-4 w-full h-96 items-center bg-background"
+      className="flex flex-col space-y-4 w-full h-96 items-center"
     >
       {/* // ? Title === > What's Next?  */}
       <div className="flex flex-row items-center ">
         <ArrowIcon className="flex-none h-5 md:h-6 w-5 md:w-5 text-purple" />
         <div className="flex flex-row space-x-2 items-center">
           <span className=" font-sans text-purple text-base">
-            What&apos;s Next?
+            How you can connect with me?
           </span>
         </div>
       </div>
@@ -33,7 +33,7 @@ export default function GetInTouch() {
         >
           <button
             className="font-mono text-sm text-primary border-primary 
-                            px-8 py-4 border-[1.5px] rounded "
+                            px-8 py-4 border-[1.5px] rounded  hover:text-purple transition ease-in	duration-200"
           >
             Say Hello
           </button>

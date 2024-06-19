@@ -36,12 +36,12 @@ const SomethingIveBuilt = () => {
         {/* // ?  Project  1*/}
         <div
           data-aos="fade-up"
-          className="relative md:grid md:grid-cols-12 w-full md:h-96 "
+          className="relative md:grid md:grid-cols-12 w-full h-[480px] "
         >
           {/* Left image */}
           <div
             className="hidden bg-background z-10  py-4 
-          absolute md:grid grid-cols-12 w-full h-full  content-center"
+            absolute md:grid grid-cols-12 w-full h-full  content-center "
           >
             <div className="relative rounded w-full h-full col-span-7 ">
               <Link
@@ -90,7 +90,7 @@ const SomethingIveBuilt = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <span className=" md:text-gray-200 text-purple font-bold text-xl hover:cursor-pointer">
+                  <span className=" md:text-gray-200 text-primary font-bold text-xl hover:cursor-pointer">
                     Music Player
                   </span>
                 </Link>
@@ -190,7 +190,7 @@ const SomethingIveBuilt = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <span className=" md:text-gray-200 text-secondary font-bold text-xl hover:cursor-pointer">
+                  <span className=" md:text-gray-200 text-primary font-bold text-xl hover:cursor-pointer">
                     E-commerce Store Template
                   </span>
                 </Link>
@@ -284,7 +284,7 @@ const SomethingIveBuilt = () => {
                   target={"_blank"}
                   rel="noreferrer"
                 >
-                  <span className=" md:text-gray-200 text-secondary font-bold text-xl hover:cursor-pointer">
+                  <span className=" md:text-gray-200 text-primary font-bold text-xl hover:cursor-pointer">
                     Beauty Clinic Appoitment Website
                   </span>
                 </Link>

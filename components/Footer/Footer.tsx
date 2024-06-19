@@ -26,7 +26,7 @@ export default function Fotter(props: {
   hideSocialsInDesktop: boolean;
 }) {
   return (
-    <div className="bg-background flex flex-col justify-center items-center py-8 space-y-4">
+    <div className="flex flex-col justify-center items-center py-8 space-y-4 ">
       {/* // ? Reach me at */}
       <div
         className={`flex flex-row space-x-8 ${
@@ -52,7 +52,7 @@ export default function Fotter(props: {
             Built by Maksym Shtarkberg
           </span>
 
-          <span className="text-xs flex flex-row items-center space-x-2 group-hover:text-purple">
+          <span className="group text-xs flex flex-row items-center space-x-2 group-hover:text-purple transition ease-in	duration-200">
             <GithubIcon
               className={
                 "w-4 h-4 text-primary fill-current group-hover:text-purple"

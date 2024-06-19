@@ -195,7 +195,7 @@ export const BentoGridItem = ({
                       className={cn(
                         "lg:py-3 lg:px-2 py-2 px-3 text-xs lg:text-base rounded-lg text-center bg-[#10132E] flex items-center",
                         selectedItem === item
-                          ? "bg-purple-500 text-white shadow-md bg-[#3e4372] shadow-indigo-100 transition ease-in	duration-300"
+                          ? "bg-purple-500 text-white shadow-[0_0_8px_4px_rgba(99,102,241,0.2)] bg-[#3e4372] shadow-indigo-400 transition ease-in	duration-300 drop-shadow-2xl"
                           : "opacity-50 lg:opacity-100"
                       )}
                       onClick={() => handleItemClick(item)}
@@ -215,7 +215,7 @@ export const BentoGridItem = ({
                       className={cn(
                         "lg:py-3 lg:px-2 py-2 px-3 text-xs lg:text-base rounded-lg text-center bg-[#10132E] flex items-center cursor-pointer",
                         selectedItem === item
-                          ? "bg-purple-500 text-white shadow-md bg-[#3e4372] shadow-indigo-100 transition ease-in	duration-300"
+                          ? "shadow-[0_0_8px_4px_rgba(99,102,241,0.2)] text-white bg-[#3e4372] shadow-indigo-400 transition ease-in	duration-300 drop-shadow-2xl"
                           : "opacity-50 lg:opacity-100"
                       )}
                       onClick={() => handleItemClick(item)}
