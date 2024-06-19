@@ -71,12 +71,10 @@ const SomethingIveBuilt = () => {
               <div className="relative w-full h-full">
                 <div className="absolute w-full h-full bg-secondary opacity-10 z-10"></div>
                 <div className="absolute w-full h-full bg-background opacity-80 z-10"></div>
-                <Image
-                  width={250}
-                  height={250}
-                  src={""}
+                <Img
+                  src={"/musicPlayer.png"}
                   alt={"Project Screen shot"}
-                  className={`w-full h-full `}
+                  className={`w-full h-full object-cover`}
                 />
               </div>
             </div>
@@ -174,9 +172,9 @@ const SomethingIveBuilt = () => {
                 <div className="absolute w-full h-full bg-secondary opacity-10 z-10"></div>
                 <div className="absolute w-full h-full bg-background opacity-80 z-10"></div>
                 <Img
-                  src={""}
+                  src={"./ecomerce.jpg"}
                   alt={"Project Screen shot"}
-                  className={`w-full h-full`}
+                  className={`w-full h-full object-cover`}
                 />
               </div>
             </div>
@@ -268,9 +266,9 @@ const SomethingIveBuilt = () => {
                 <div className="absolute w-full h-full bg-secondary opacity-10 z-10"></div>
                 <div className="absolute w-full h-full bg-background opacity-80 z-10"></div>
                 <Img
-                  src={""}
+                  src={"./clinic.png"}
                   alt={"Project Screen shot"}
-                  className={`w-full h-full `}
+                  className={`w-full h-full object-cover`}
                 />
               </div>
             </div>

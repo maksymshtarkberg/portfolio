@@ -6,11 +6,13 @@ import SocialMediaEmail from "@/components/SocialMediaArround";
 import SomethingIveBuilt from "@/components/SomethingIveBuilt/SomethingIveBuilt";
 import WhereIHaveWorked from "@/components/WhereIHaveWorked/WhereIHaveWorked";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
+import Footer from "@/components/Footer/Footer";
 import { navItems } from "@/data";
 import { useContext, useEffect, useState } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import Technologies from "@/components/Technologies";
+import GetInTouch from "@/components/GetInTouch/GetInTouch";
 
 export default function Home() {
   const [ShowElement, setShowElement] = useState(false);
@@ -64,6 +66,15 @@ export default function Home() {
         {context.sharedState.finishedLoading ? <Technologies /> : <></>}
         {context.sharedState.finishedLoading ? <WhereIHaveWorked /> : <></>}
         {context.sharedState.finishedLoading ? <SomethingIveBuilt /> : <></>}
+        {context.sharedState.finishedLoading ? <GetInTouch /> : <></>}
+        {context.sharedState.finishedLoading ? (
+          <Footer
+            githubUrl={"https://github.com/maksymshtarkberg/portfolio"}
+            hideSocialsInDesktop={true}
+          />
+        ) : (
+          <></>
+        )}
       </div>
     </main>
   );

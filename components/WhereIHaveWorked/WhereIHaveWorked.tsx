@@ -71,7 +71,7 @@ const CompaniesBar = (props: any) => {
         }}
         className={`flex-none sm:text-sm text-xs text-center md:text-left  hover:text-purple
              hover:bg-ResumeButtonHover rounded  font-mono  
-             py-3 md:pl-6 md:px-4 md:w-44 w-32 duration-500
+             py-3  md:pl-6 md:px-4 max-md:w-44 max-sm:w-24 lg:w-32 duration-500
              ${
                companyNameBackgroundColorGreen[
                  props.ButtonOrderOfcompanyNameBackgroundColorGreen
