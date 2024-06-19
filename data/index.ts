@@ -8,11 +8,11 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title: "About me",
     description:
       "Hi there! I'm Maksym, a passionate web developer committed to crafting powerful and influential code for the web. My adventure in computer science kicked off in 2021 when I embarked on building my first website. It quickly became evident that programming skills were crucial to this endeavor, marking the beginning of my coding journey.",
     description2:
-      "I have a master's degree in economics, but I have always been drawn to programming. My experience has taken me through diverse businesses, allowing me to refine my expertise in web development.",
+      "I have a master's degree in economics, but I have always been drawn to programming. Took several web development courses at Hillel IT School and now learn there Golang. My experience has taken me through diverse businesses, allowing me to refine my expertise in web development.",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 flex",
     imgClassName: "w-full h-full",
     titleClassName: "justify-center flex-row",
@@ -32,7 +32,7 @@ export const gridItems = [
   {
     id: 3,
     title: "My tech stack",
-    description: "I constantly try to improve",
+    description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-center flex-col",

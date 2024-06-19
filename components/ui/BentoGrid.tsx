@@ -139,34 +139,39 @@ export const BentoGridItem = ({
             "group-hover/bento:translate-x-2 transition duration-200 relative md:h-full min-h-40 flex px-5 p-5 lg:p-10"
           )}
         >
-          <div className="">
+          <>
             <div className="flex">
-              <p
-                className={cn(
-                  "font-sans text-lg lg:text-3xl font-bold z-10",
-                  id === 3 && "w-1/2"
-                )}
-              >
-                {title}
-              </p>
+              <div className="flex flex-col">
+                <p
+                  className={cn("font-sans text-lg lg:text-3xl font-bold z-10")}
+                >
+                  {title}
+                </p>
+                <p className="font-sans font-extralight md:max-w-sm md:text-xs lg:text-base text-sm text-[#C1C2D3] z-10 pt-6">
+                  {description}
+                </p>
+                <p className="font-sans font-extralight md:max-w-xl md:text-xs lg:text-base text-sm text-[#C1C2D3] z-10 pt-6">
+                  {description2}
+                </p>
+              </div>
               {id === 1 && (
-                <div className="group relative lg:w-96 lg:h-96 md:w-72 md:h-72 md:block hidden z-50	">
+                <div className="group relative lg:w-96 lg:h-96 md:w-72 md:h-72 h-0 md:block hidden z-50	left-16">
                   <div
                     className="group-hover:translate-x-3 group-hover:translate-y-3
-               duration-300 absolute w-5/6 h-3/5 border-2 border-purple translate-x-5 
+               duration-300 absolute w-3/5 h-[200px] border-2 border-purple translate-x-5 
                translate-y-5 rounded"
                   ></div>
-                  <div className="absolute w-full h-full duration-300 rounded overflow-hidden">
+                  <div className="absolute w-full h-[200px] duration-300 rounded overflow-hidden">
                     <Link
                       href={"https://www.linkedin.com/in/maksym-shtarkberg/"}
                       target={"_blank"}
                       rel="noreferrer"
                       className="cursor-pointer "
                     >
-                      <div className="absolute w-5/6 h-2/3  rounded overflow-hidden">
+                      <div className="absolute w-5/6  rounded overflow-hidden">
                         <img
                           src={"/me.jpg"}
-                          className={"object-contain rounded-lg"}
+                          className={"object-contain rounded-lg h-52"}
                           alt="My Image Not Found"
                         />
                       </div>
@@ -175,15 +180,7 @@ export const BentoGridItem = ({
                 </div>
               )}
             </div>
-            <div className="absolute top-32	">
-              <p className="font-sans font-extralight md:max-w-sm md:text-xs lg:text-base text-sm text-[#C1C2D3] z-10 pt-6">
-                {description}
-              </p>
-              <p className="font-sans font-extralight md:max-w-xl md:text-xs lg:text-base text-sm text-[#C1C2D3] z-10 pt-6">
-                {description2}
-              </p>
-            </div>
-          </div>
+          </>
 
           {id === 2 && <GridGlobe />}
 
