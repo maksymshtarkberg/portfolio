@@ -7,7 +7,7 @@ import Image from "next/image";
 
 const Technologies = () => {
   return (
-    <section id="testimonials" className="py-20" data-aos="fade-up">
+    <section id="testimonials" data-aos="fade-up">
       <h2 className="text-white opacity-85 font-bold tracking-wider text-lg md:text-2xl px-3 text-center mb-8">
         I am familiar with:
       </h2>

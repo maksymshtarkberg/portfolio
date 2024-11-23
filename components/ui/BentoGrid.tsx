@@ -117,7 +117,10 @@ export const BentoGridItem = ({
               height={250}
               src={img}
               alt={img}
-              className={cn(imgClassName, "object-cover object-center ")}
+              className={cn(
+                imgClassName,
+                "object-cover object-center opacity-60"
+              )}
             />
           )}
         </div>
@@ -147,12 +150,16 @@ export const BentoGridItem = ({
                 >
                   {title}
                 </p>
-                <p className="font-sans font-extralight md:max-w-sm md:text-xs lg:text-base text-sm text-[#C1C2D3] z-10 pt-6">
-                  {description}
-                </p>
-                <p className="font-sans font-extralight md:max-w-xl md:text-xs lg:text-base text-sm text-[#C1C2D3] z-10 pt-6">
-                  {description2}
-                </p>
+                {description && (
+                  <p className="font-sans font-normal md:max-w-sm lg:text-base text-md text-[#C1C2D3] z-10 mt-6 p-2 md:bg-transparent md:rounded-none bg-slate-900 rounded-lg">
+                    {description}
+                  </p>
+                )}
+                {description2 && (
+                  <p className="font-sans font-normal md:max-w-sm lg:text-base text-md text-[#C1C2D3] z-10 mt-6 p-2 md:bg-transparent md:rounded-none bg-slate-900 rounded-lg">
+                    {description2}
+                  </p>
+                )}
               </div>
               {id === 1 && (
                 <div className="group relative lg:w-96 lg:h-96 md:w-72 md:h-72 h-0 md:block hidden z-50	left-16">

@@ -14,8 +14,7 @@ const SomethingIveBuilt = () => {
   return (
     <div
       id="projects"
-      className="flex flex-col xl:space-y-28 space-y-12 w-full  
-       lg:px-24 md:px-16 sm:px-16 py-32 px-4"
+      className="flex flex-col xl:space-y-28 space-y-12 w-full lg:px-24 md:px-16 sm:px-16 px-4"
     >
       {/* // ? Title  */}
       <div data-aos="fade-up" className=" flex flex-row  items-center md:px-0">
@@ -36,13 +35,10 @@ const SomethingIveBuilt = () => {
         {/* // ?  Project  1*/}
         <div
           data-aos="fade-up"
-          className="relative md:grid md:grid-cols-12 w-full h-[480px] "
+          className="relative md:grid md:grid-cols-12 w-full h-full md:h-[480px]"
         >
           {/* Left image */}
-          <div
-            className="hidden bg-background z-10  py-4 
-            absolute md:grid grid-cols-12 w-full h-full  content-center "
-          >
+          <div className="hidden bg-background z-10 py-4 absolute md:grid grid-cols-12 w-full h-full content-center ">
             <div className="relative rounded w-full h-full col-span-7 ">
               <Link
                 href="https://react-music-player-coral.vercel.app/"
@@ -65,7 +61,7 @@ const SomethingIveBuilt = () => {
           </div>
 
           {/* right Content */}
-          <div className=" md:absolute py-4  md:grid md:grid-cols-12 w-full h-full  content-center ">
+          <div className=" md:absolute py-4 md:grid md:grid-cols-12 w-full h-full content-center ">
             {/* background for text in mobile responsive */}
             <div className="absolute w-full h-full bg-opacity-70 z-0">
               <div className="relative w-full h-full">
@@ -79,10 +75,7 @@ const SomethingIveBuilt = () => {
               </div>
             </div>
 
-            <div
-              className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-6 xl:col-start-7 col-start-5 
-            col-span-8 flex flex-col items-start md:items-end space-y-3"
-            >
+            <div className="px-8 sm:pt-12 md:py-0 xl:col-span-6 xl:col-start-7 col-start-5 col-span-8 flex flex-col items-start md:items-end space-y-3">
               <div className="flex flex-col space-y-1 md:items-end z-10">
                 <span className="text-purple text-base">Main project</span>
                 <Link
@@ -138,13 +131,10 @@ const SomethingIveBuilt = () => {
         {/* // ?  Project 2 */}
         <div
           data-aos="fade-up"
-          className="relative md:grid md:grid-cols-12 w-full md:h-96  "
+          className="relative md:grid md:grid-cols-12 w-full md:h-96"
         >
           {/* Left image */}
-          <div
-            className="hidden bg-background z-10  py-4 
-          absolute md:grid grid-cols-12 w-full h-full  content-center "
-          >
+          <div className="hidden bg-background z-10 py-4 absolute md:grid grid-cols-12 w-full h-full content-center ">
             <div className="relative rounded w-full h-full col-start-6 col-span-7 ">
               <Link
                 href={"https://ecommerce-app-9fnu.vercel.app/"}
@@ -165,7 +155,7 @@ const SomethingIveBuilt = () => {
           </div>
 
           {/* right Content */}
-          <div className=" md:absolute py-4  md:grid md:grid-cols-12 w-full h-full  content-center ">
+          <div className=" md:absolute py-4 md:grid md:grid-cols-12 w-full h-full content-center ">
             {/* background for text in mobile responsive */}
             <div className="absolute w-full h-full bg-opacity-70 z-0 md:order-2">
               <div className="relative w-full h-full">
@@ -273,10 +263,7 @@ const SomethingIveBuilt = () => {
               </div>
             </div>
 
-            <div
-              className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-6 xl:col-start-7 col-start-5 
-            col-span-8 flex flex-col items-start md:items-end space-y-3"
-            >
+            <div className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-6 xl:col-start-7 col-start-5 col-span-8 flex flex-col items-start md:items-end space-y-3">
               <div className="flex flex-col space-y-1 md:items-end z-10">
                 <span className="text-purple text-base">Recent project</span>
                 <Link

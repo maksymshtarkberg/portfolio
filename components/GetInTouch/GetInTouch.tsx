@@ -5,7 +5,7 @@ export default function GetInTouch() {
     <div
       id="contact"
       data-aos="fade-up"
-      className="flex flex-col space-y-4 w-full h-96 items-center"
+      className="flex flex-col justify-center space-y-4 w-full h-96 items-center pt-8"
     >
       {/* // ? Title === > What's Next?  */}
       <div className="flex flex-row items-center ">
@@ -20,11 +20,16 @@ export default function GetInTouch() {
       <span className="text-gray-200 text-3xl sm:text-4xl font-bold tracking-wider opacity-85">
         Contact
       </span>
-      <p className="flex font-Header tracking-wider text-gray-400 text-center px-6 sm:px-16 md:px-0 md:w-[600px]">
-        I&apos;m always eager for new opportunities, so my inbox is open. If you
-        have any questions or just want to say hello, I&apos;ll do my best to
-        respond promptly!
-      </p>
+      <div className="px-6 sm:px-16 md:px-0 md:w-[600px]">
+        <p className="font-Header tracking-wider text-gray-400 text-center">
+          I&apos;m always eager for new opportunities, so my inbox is open.
+        </p>
+        <p className="font-Header tracking-wider text-gray-400 text-center">
+          If you have any questions or just want to say hello, I&apos;ll do my
+          best to respond promptly!
+        </p>
+      </div>
+
       <div className="pt-4">
         <a
           href="mailto:starkberg@icloud.com"

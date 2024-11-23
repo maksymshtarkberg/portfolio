@@ -10,9 +10,9 @@ export const gridItems = [
     id: 1,
     title: "About me",
     description:
-      "Hi there! I'm Maksym, a passionate web developer committed to crafting powerful and influential code for the web. My adventure in computer science kicked off in 2021 when I embarked on building my first website. It quickly became evident that programming skills were crucial to this endeavor, marking the beginning of my coding journey.",
+      "Hi there! I'm Maksym, a passionate web developer dedicated to crafting powerful and impactful solutions for the web. My journey into computer science began in 2021 when I built my first website. It quickly became clear that programming was essential to achieving my goals, igniting my passion for coding and marking the start of an exciting career in web development.",
     description2:
-      "I have a master's degree in economics, but I have always been drawn to programming. Took several web development courses at Hillel IT School and now learn there Golang. My experience has taken me through diverse businesses, allowing me to refine my expertise in web development.",
+      "I hold a master’s degree in economics, but my curiosity and enthusiasm for programming have always been a driving force in my life. While my primary programming language is JavaScript, I’m also proficient in Golang and Python. Over the years, I’ve worked with diverse businesses, which has allowed me to refine my skills and deliver exceptional web development solutions.",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 flex",
     imgClassName: "w-full h-full",
     titleClassName: "justify-center flex-row",
@@ -125,12 +125,6 @@ export const companies = [
   },
   {
     id: 9,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
-  },
-  {
-    id: 10,
     name: "docker.",
     img: "/dock.svg",
     nameImg: "/dockerName.svg",
